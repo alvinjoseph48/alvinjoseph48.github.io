@@ -12,7 +12,9 @@ html{
   padding: 0px;
   overflow-x: hidden;
 }
-
+.wrap{
+  overflow-x: hidden;
+}
 .hero, footer{
   /* Sizing */
   z-index: -1;
