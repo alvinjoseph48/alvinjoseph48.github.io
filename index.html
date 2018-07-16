@@ -238,7 +238,11 @@
 					<p> <i class="fa fa-copyright" style="font-size:30px"></i> <script>document.write((new Date).getFullYear())</script> Alvin Joseph </p>
 
 				</footer>
-
+<script >
+	document.addEventListener('touchstart', function () {
+    document.getElementsByTagName('iframe')[0].play();
+});
+</script>
 <!-- 			<script>
 				$(document).ready(function(){
 					$('[data-toggle="tooltip"]').tooltip(); 
@@ -250,7 +254,8 @@
 			</script> -->
 
 			<!-- <iframe src="./images/WhatIveDone.mp3"></iframe>-->
-			<iframe src="./images/NFRememberThis.mp3"></iframe>
+			<iframe src="./images/NFRememberThis.mp3" id="NF" ></iframe>
+			
 			</body>
 	</div>
 
