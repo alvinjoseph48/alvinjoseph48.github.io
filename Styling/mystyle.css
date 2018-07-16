@@ -6,6 +6,8 @@
   font -font-family: sans-serif;
   height: 100%;
   width:100%;
+  position: relative;
+  overflow-x: hidden;
 }
 .wrap{
   width: 100%;
