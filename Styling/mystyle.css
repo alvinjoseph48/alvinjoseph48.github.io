@@ -419,6 +419,7 @@ footer p img{
   display: grid;
   grid-template-columns: repeat(1, 2fr);
   grid-gap: 0px;
+   background-attachment: fixed;
 }
 .section3 .container{
 
