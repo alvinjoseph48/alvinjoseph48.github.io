@@ -151,13 +151,13 @@ header a img {
 .col2{
   text-align: left;
   background-color: black;
-  width: 100%;
+  width: 80%;
 }
-.col2 h4{
-
+.col2 p{
   font-family: Comic Sans MS;
   color: white;
   font-size: 1.75em;
+  padding: .5em;
 }
 .iconsFloatRight{
  min-width: 200px;
@@ -169,15 +169,16 @@ header a img {
  background: black;
 }
 a.tip {
-    border-bottom: 1px dashed;
+   
     text-decoration: none
+    background-color: black;
 }
 a.tip:hover {
   position: relative;
 }
 a.tip span {
     display: none
-    background-color: black;
+    background-color: blue;
 }
 a.tip:hover span {
     border: #c0c0c0 1px;
@@ -685,11 +686,12 @@ hr {
     height: 100%;
   }
   .col1 img{
-    margin: 1em;
-    padding: 3em;
+    padding: 4em;
   }
-  .col2 h4 {
-    padding-left: 3em;
+  .col2 p {
+    padding: 3em;
+    padding-bottom: .5em;
+    padding-right: .5em;
   }
   .section3{
     margin: 1px;
@@ -697,9 +699,7 @@ hr {
   }
   .section3 .container{
     margin:2em;
-
   }  
-
   .toggle{
     display: block;
   }
