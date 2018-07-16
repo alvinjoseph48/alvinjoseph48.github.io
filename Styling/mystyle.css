@@ -11,8 +11,8 @@
 }
 .wrap{
   width: 100%;
-    height: 100%;
-    overflow: scroll;
+  height: 100%;
+  overflow: scroll;
 
 }
 html{
@@ -47,11 +47,11 @@ html{
  height: 100vh;
 }
 iframe{ 
-   visibility: hidden;
-    position: absolute;
-    left: 0; top: 0;
-    height:0; width:0;
-    border: none;
+ visibility: hidden;
+ position: absolute;
+ left: 0; top: 0;
+ height:0; width:0;
+ border: none;
 }
 nav{
   min-width: 200px;
@@ -151,7 +151,7 @@ header a img {
 .col2{
   text-align: left;
   background-color: black;
-    width: 100%;
+  width: 100%;
 }
 .col2 h4{
 
@@ -160,19 +160,40 @@ header a img {
   font-size: 1.75em;
 }
 .iconsFloatRight{
-   min-width: 200px;
-  float: right;
-  margin-top: 10px;
-  padding-top: .50em;
-  padding-right: 4em;
-margin-bottom: 1em;
-background: black;
-
-
+ min-width: 200px;
+ float: right;
+ margin-top: 10px;
+ padding-top: .50em;
+ padding-right: 4em;
+ margin-bottom: 1em;
+ background: black;
 }
+a.tip {
+    border-bottom: 1px dashed;
+    text-decoration: none
+}
+a.tip:hover {
+  position: relative;
+}
+a.tip span {
+    display: none
+    background-color: black;
+}
+a.tip:hover span {
+    border: #c0c0c0 1px;
+    display: inline;
+    z-index: 100;
+    top: 20px;
+    right: 25px;
+    margin: 10px;
+    width: 250px;
+    position: absolute; 
+}
+
+
 .iconsFloatRight img{
   padding-right: .75em;
- margin-bottom: 1em;
+  margin-bottom: 1em;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -215,7 +236,7 @@ background: black;
 }
 .skills2 h3{
   text-align: center;
-   font-family: Comic Sans MS;
+  font-family: Comic Sans MS;
   font-size: 4em;
   margin: 0;
   padding: 0;
@@ -447,7 +468,7 @@ footer p img{
   font-size: 3em;
   font-family: Comic Sans MS;
   color: white;
-text-align: center;
+  text-align: center;
 }
 .container{
 
@@ -477,30 +498,30 @@ text-align: center;
 .textBoxBlue{
   right:-100%;
   width: 100%;
-    height: 100%;
+  height: 100%;
   background: linear-gradient(rgba(240,61,77,.85),rgba(255,162,47,.85));
 }
 .textBox h3 , .textBoxBlue h3{
-padding: 0;
-position: absolute;
-text-transform: uppercase;
-top: 15%;
-left: 50%;
-transform: translateX(-50%) translateY(-50%);
-color: black;
-font-family: Comic Sans MS;
-font-size: 2em;
+  padding: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: black;
+  font-family: Comic Sans MS;
+  font-size: 2em;
 
 }
 .textBox p , .textBoxBlue p{
-padding: 0;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translateX(-50%) translateY(-50%);
-color: #fff;
-font-family: arial;
-font-size: 1.5em;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  font-family: arial;
+  font-size: 1.5em;
 
 }
 .imageBox:hover .textBox{
@@ -618,8 +639,8 @@ hr {
   padding: 0;
 }
 .toggle{
-width: 4em;
-height: 4em;
+  width: 4em;
+  height: 4em;
   padding: 1em 1em;
   background: black;
   text-align: right;
@@ -650,25 +671,25 @@ height: 4em;
     padding: 1em;
   }
   .skills3 h5{
-  text-align: left;
-}
+    text-align: left;
+  }
   .skills3 .skillBox{
-  width: 100%;
-  padding: 1em;
-}
- .skillBox{
-  width: 100%;
-  padding: 1em;
-}
+    width: 100%;
+    padding: 1em;
+  }
+  .skillBox{
+    width: 100%;
+    padding: 1em;
+  }
   .wrapper{
     height: 100%;
   }
   .col1 img{
-  margin: 1em;
-  padding: 3em;
+    margin: 1em;
+    padding: 3em;
   }
   .col2 h4 {
-  padding-left: 3em;
+    padding-left: 3em;
   }
   .section3{
     margin: 1px;
@@ -676,11 +697,11 @@ height: 4em;
   }
   .section3 .container{
     margin:2em;
-  
+
   }  
 
   .toggle{
-      display: block;
+    display: block;
   }
   ul{
     width: 100%;
@@ -692,16 +713,15 @@ height: 4em;
   } 
   .active{
     display: block;
-   
+
   }
   .disable{
-   opacity: 0;
-   
-  }
-  .iconsFloatRightChange{
+  display: none;
+ }
+ .iconsFloatRightChange{
   background: black;
   opacity: .9;
-  }
+}
 .section3 .container{
   background-attachment: scroll;
 }
