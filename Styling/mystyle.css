@@ -749,4 +749,10 @@ a.tip:hover span {
  display: none;
 }
 }
+@media screen and (max-width: 800px) {
+
+a.tip:hover span {
+ display: none;
+}
+}
 
