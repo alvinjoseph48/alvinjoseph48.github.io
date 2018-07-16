@@ -9,8 +9,8 @@
 }
 .wrap{
   width: 100%;
-  height: 100%;
-  overflow: scroll;
+    height: 100%;
+    overflow: scroll;
 
 }
 html{
@@ -419,7 +419,6 @@ footer p img{
   display: grid;
   grid-template-columns: repeat(1, 2fr);
   grid-gap: 0px;
-   background-attachment: fixed;
 }
 .section3 .container{
 
@@ -701,6 +700,17 @@ height: 4em;
   background: black;
   opacity: .9;
   }
-
+.section3 .container{
+  background-attachment: scroll;
+}
+.section3Head{
+  background-attachment:scroll;
+}
+.hero, footer{
+  background-attachment:scroll;
+}
+.section3Head{
+  background-attachment: scroll;
+}
 }
 
