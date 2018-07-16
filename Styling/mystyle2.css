@@ -52,8 +52,8 @@
     padding: 1px;
   }
   .section3 .container{
-    margin:2em;
-    width: 100vh;
+    margin:0;
+    
   }  
   .section3 img{
     object-fit: contain;
