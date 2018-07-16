@@ -704,7 +704,6 @@ hr {
   } 
   .active{
     display: block;
-
   }
   .disable{
   display: none;
@@ -722,9 +721,7 @@ hr {
 .hero, footer{
   background-attachment:scroll;
 }
-.section3Head{
-  background-attachment: scroll;
-}
+
 .section3 img{
   width: 20em;
 }
@@ -745,5 +742,15 @@ a.tip:hover span {
 a.tip:hover span {
  display: none;
 }
+.section3 .container{
+  background-attachment: scroll;
+}
+.section3Head{
+  background-attachment:scroll;
+}
+.hero, footer{
+  background-attachment:scroll;
+}
+
 }
 
