@@ -1,0 +1,89 @@
+
+@media screen and (max-width: 600px) {
+
+  .skills1{
+    padding: 1em;
+    grid-column: 1 / 4;
+    grid-row: 3;
+
+  }
+  .skills3{
+    padding: 1em;
+    grid-column: 1 / 4;
+    grid-row: 4;
+    width: 100%
+  }
+  .skills{
+    grid-column: 1 / 4;
+    grid-row: 2;
+    padding: 1em;
+  }
+  .skills3 h5{
+  text-align: left;
+}
+  .skills3 .skillBox{
+  width: 100%;
+  padding: 1em;
+}
+ .skillBox{
+  width: 100%;
+  padding: 1em;
+}
+  .wrapper{
+    height: 100%;
+  }
+  .col1 img{
+  margin: 1em;
+  padding: 3em;
+  }
+  .col2 h4 {
+  padding-left: 3em;
+  }
+  .section3{
+    margin: 1px;
+    padding: 1px;
+  }
+  .section3 .container{
+    margin:2em;
+    width: 100vh;
+  }  
+  .section3 img{
+    object-fit: contain;
+  }
+  .toggle{
+      display: block;
+  }
+  ul{
+    width: 100%;
+    display: none;
+  }
+  ul li{
+    display: block;
+    text-align: center;
+  } 
+  .active{
+    display: block;
+   
+  }
+  .disable{
+   opacity: 0;
+   
+  }
+  .iconsFloatRightChange{
+  background: black;
+  opacity: .9;
+  }
+.section3 .container{
+  background-attachment: scroll;
+}
+.section3Head{
+  background-attachment:scroll;
+}
+.hero, footer{
+  background-attachment:scroll;
+}
+.section3Head{
+  background-attachment: scroll;
+}
+}
+
