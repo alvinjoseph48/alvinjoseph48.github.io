@@ -55,9 +55,9 @@
     margin:0;
     
   }  
-  .section3 img{
-    object-fit: contain;
-  }
+ .section3 img{
+  width: 20em;
+}
   .toggle{
       display: block;
   }

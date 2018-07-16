@@ -509,11 +509,12 @@ font-size: 1.5em;
 .imageBox:hover .textBoxBlue{
   right: 0;
 }
-.container img{
-  padding: 2em;
-}
+
 .imageBox:hover img{
   opacity:.2; 
+}
+.imageBox img{
+  margin:2em;
 }
 .section4 {
   padding: 0px;
@@ -677,9 +678,7 @@ height: 4em;
     margin:2em;
   
   }  
-  .section3 img{
-    object-fit: contain;
-  }
+
   .toggle{
       display: block;
   }
@@ -715,5 +714,16 @@ height: 4em;
 .section3Head{
   background-attachment: scroll;
 }
+.section3 img{
+  width: 20em;
+}
+.textBox h3 , .textBoxBlue h3{
+  font-size: 1em;
+  top: 10%;
+}
+.textBox p, .textBoxBlue p{
+  font-size: 1em;
+}
+
 }
 
