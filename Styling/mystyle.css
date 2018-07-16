@@ -28,7 +28,7 @@ html{
   url("../images/background hd.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+ 
   background-position: center center;
   padding: 0px;
   margin: 0px;
@@ -395,7 +395,7 @@ footer p img{
   url("../images/code-image.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+
   background-position: center center;
 
 }
@@ -423,7 +423,7 @@ footer p img{
   url("../images/code-image.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+
   background-position: center center;
   padding: 0px;
   margin: 0px;
