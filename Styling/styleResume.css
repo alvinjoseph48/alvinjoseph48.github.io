@@ -1,0 +1,190 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+.row{
+	background-color: #708090;
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+  width: 100%;
+}
+
+.col-lg-8{
+	padding: 5em;
+	margin-left: 2em;
+	flex: 70%;
+}
+.col-lg-4{
+	padding-top: 6em;
+	flex: 60%;
+}
+.row h1{
+	font-size: 6em;
+	color: 	#bfbff2;
+}
+.row h4{
+	font-weight: lighter;
+	font-size: 2.25em;
+	color: 	#F0F8FF;
+
+}
+.col-lg-4 p{
+	font-size: 2em;
+}
+.row a{
+	color: 	#F0F8FF;
+	margin: .50em;
+}
+.Resume{
+
+	margin: 0px;
+	padding-right: 0px;
+	background: linear-gradient(to right ,#00FFFF  ,#FF00FF, #000080);
+	height: 20em;
+  width: 100%;
+  text-align: center;
+}
+.Resume h3{
+	font-size: 3em;
+	color: #eaeafb;
+	padding: 20px;
+	margin: 0px;
+	padding-bottom: 1em;
+}
+button {
+  width: 100px;
+  height: 70px;
+  border-width: 2em;
+  border-color: black;
+  background: transparent;
+
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.pdf1 , .word1 ,.text{
+  border-color: white;
+  border-bottom-color: black;
+  color: blue;
+  padding: 100px;
+  margin: 2em;
+  font-size: 70px;
+}
+.word1:hover , .pdf1:hover, .text:hover {
+  background: #00FFFF;
+  color: white;
+  border-color: white;
+}
+footer{
+	text-align: center;
+	background-color: #708090;
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+}
+footer  h3{
+  margin: 0px;
+  padding: 20px;
+  float: center;
+  color: #F0F8FF;
+  font-size: 2em;
+
+}
+footer  p{
+  float: center;
+  color: #F0F8FF;
+  font-size: 2em;
+  padding: .75em;
+  margin: 0px;
+}
+hr {
+  display: block;
+  margin-right: 25em;
+  width: 50%
+  border: 0;
+  margin-left: 25em;
+  padding: 0;
+}
+footer img{
+	width: 40px;
+	height: 40px;
+}
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+.bottom { 
+  animation-name: heartbeat; 
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .row h1{
+    font-size: 3em;
+  }
+  .row h4{
+    font-size: 1.5em;
+  }
+  .Resume{
+    padding: 0;
+
+    height: 20em;
+    text-align: center;
+  }
+  .col-lg-4 p{
+  font-size: 1em;
+}
+  .row a{
+  color:  #F0F8FF;
+  padding-top: 6em;
+
+  }
+  footer{
+    padding: 2em;
+    text-align: center;
+  }
+  .Resume h3{
+    font-size: 2em;
+  }
+
+  .pdf1 , .word1 ,.text{
+ margin: .25em;
+  font-size: 70px;
+}
+
+
+}
+

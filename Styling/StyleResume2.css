@@ -1,0 +1,14 @@
+.row{
+	margin: 0;
+}
+.col-xs-7 {
+	margin: 0;
+	
+	
+}
+.col-xs-3{
+	padding-top: 8em;
+}
+.container{
+	width: 100vh;	
+}
