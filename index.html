@@ -57,11 +57,6 @@
 
 			<h2 class="animated zoomInRight" >Student by day, Programmer by night </h2>
 
-
-		<!--	<audio id="audioplay" controls autoplay="" loop  >
-				<source src="./images/What Ive Done-Linkin Park.mp3" type="audio/mpeg">
-					Your browser does not support the audio element.
-				</audio> -->
 			</div>
 		</section>
 
@@ -240,7 +235,12 @@
 				</footer>
 <script >
 	document.addEventListener('touchstart', function () {
-    document.getElementsByTagName('iframe')[0].play();
+    document.getElementsByTagName('audio')[0].play();
+});
+</script>
+<script >
+	document.addEventListener('click', function () {
+    document.getElementsByTagName('audio')[0].play();
 });
 </script>
 <!-- 			<script>
@@ -253,9 +253,14 @@
 				document.getElementById('audioplay').play();
 			</script> -->
 
-			<!-- <iframe src="./images/WhatIveDone.mp3"></iframe>-->
-			<iframe src="./images/NFRememberThis.mp3" id="NF" ></iframe>
-			
+			<!-- <iframe src="./images/WhatIveDone.mp3"></iframe>
+			<iframe src="./images/NFRememberThis.mp3" id="NF" ></iframe>-->
+
+			<audio id="audioplay" controls autoplay="true"  >
+				<source src="./images/WhatIveDone.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio> 
+
 			</body>
 	</div>
 
