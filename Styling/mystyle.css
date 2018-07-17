@@ -549,7 +549,6 @@ footer p img{
   color:white;
 }
 .section4 h3{
-
   padding: 0px;
   margin: 0px;
   color:white;
@@ -565,7 +564,26 @@ footer p img{
   font-size: 2em;
   font-weight: bold;
 }
-
+.ClickMe{
+  background-color: black;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.ClickMe h3{
+  color: white;
+  font-size: 2em;
+  padding: 1em;
+  margin: 0px;
+}
+.ClickMe img{
+  width: 20%;
+  height: auto;
+  background: transparent;
+}
+.shake{
+  animation-duration: 5s;
+}
 @keyframes heartbeat
 {
   0%
