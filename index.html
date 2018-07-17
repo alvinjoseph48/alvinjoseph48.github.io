@@ -233,16 +233,7 @@
 					<p> <i class="fa fa-copyright" style="font-size:30px"></i> <script>document.write((new Date).getFullYear())</script> Alvin Joseph </p>
 
 				</footer>
-<script >
-	document.addEventListener('touchstart', function () {
-    document.getElementsByTagName('audio')[0].play();
-});
-</script>
-<script >
-	document.addEventListener('click', function () {
-    document.getElementsByTagName('audio')[0].play();
-});
-</script>
+<!--
 <script >
 	document.addEventListener('scroll', function () {
     document.getElementsByTagName('audio')[0].play();
@@ -253,8 +244,21 @@
     function myHandler(e) {
        document.getElementsByTagName('audio')[0].play(); 
     }
-</script>
+</script>-->
+<script >
+var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
 
+if (isSafari) {
+	document.addEventListener('touchstart', function () {
+    document.getElementsByTagName('audio')[0].play();
+});
+	document.addEventListener('click', function () {
+    document.getElementsByTagName('audio')[0].play();
+});
+
+} 
+</script>
 <!-- 			<script>
 				$(document).ready(function(){
 					$('[data-toggle="tooltip"]').tooltip(); 
