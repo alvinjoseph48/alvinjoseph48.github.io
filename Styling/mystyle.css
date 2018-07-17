@@ -48,9 +48,13 @@ nav{
   min-width: 200px;
   white-space: nowrap;
 }
-.hero audio{
+ audio{
   margin: 5em;
   padding: .05em;
+  width: 0px;
+  height: 0px;
+  background: transparent;
+  display: none;
 }
 .hero h1 {
   color: white;
@@ -561,32 +565,7 @@ footer p img{
   font-size: 2em;
   font-weight: bold;
 }
-audio{
 
-  padding-left: .75em;
-  padding-top: .25em;
-  height: 4.25em;
-  -webkit-transition:all 0.5s linear;
-  -moz-transition:all 0.5s linear;
-  -o-transition:all 0.5s linear;
-  transition:all 0.5s linear;
-  -moz-box-shadow: 2px 2px 4px 0px #006773;
-  -webkit-box-shadow:  2px 2px 4px 0px #006773;
-  box-shadow: 2px 2px 4px 0px #006773;
-  -moz-border-radius:7px 7px 7px 7px ;
-  -webkit-border-radius:7px 7px 7px 7px ;
-  border-radius:7px 7px 7px 7px ;
-}
-audio:hover, audio:focus, audio:active
-{
-  padding-left: 3em;
-  -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-  -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-  box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  transform: scale(1.05);
-}
 @keyframes heartbeat
 {
   0%
