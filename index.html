@@ -274,6 +274,11 @@ if (isSafari) {
     document.getElementsByTagName('audio')[0].play();
 });
 } 
+if(isChrome) {
+	document.addEventListener('touchstart', function () {
+    document.getElementsByTagName('audio')[0].play();
+});
+}
 </script>	
 			<audio id="audioplay" controls  >
 				<source src="./images/NFRememberThis.mp3" type="audio/mpeg">
