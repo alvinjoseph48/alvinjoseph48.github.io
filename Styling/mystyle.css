@@ -48,7 +48,7 @@ nav{
   min-width: 200px;
   white-space: nowrap;
 }
- audio{
+audio{
   margin: 5em;
   padding: .05em;
   width: 0px;
@@ -96,6 +96,7 @@ header {
   height: 80px;
   display: flex;
   align-items: center;
+
 }
 header li a{
   margin: 20px;
@@ -164,26 +165,26 @@ header a img {
  background: black;
 }
 a.tip {
-   
-    text-decoration: none
-    background-color: black;
+ 
+  text-decoration: none
+  background-color: black;
 }
 a.tip:hover {
   position: relative;
 }
 a.tip span {
-    display: none
-    background-color: blue;
+  display: none
+  background-color: blue;
 }
 a.tip:hover span {
-    border: #c0c0c0 1px;
-    display: inline;
-    z-index: 100;
-    top: 20px;
-    right: 25px;
-    margin: 10px;
-    width: 250px;
-    position: absolute; 
+  border: #c0c0c0 1px;
+  display: inline;
+  z-index: 100;
+  top: 20px;
+  right: 25px;
+  margin: 10px;
+  width: 250px;
+  position: absolute; 
 }
 
 
@@ -642,7 +643,10 @@ hr {
 
 }
 @media screen and (max-width: 600px) {
-
+  .hero h1 {
+    font-size: 3em;
+    padding: 1em;
+  }
   .skills1{
     padding: 1em;
     grid-column: 1 / 4;
@@ -675,7 +679,7 @@ hr {
     height: 100%;
   }
   .col1 img{
-    padding: 4em;
+    padding: 2em;
   }
   .col2 p {
     padding: 3em;
@@ -704,43 +708,43 @@ hr {
     display: block;
   }
   .disable{
-  display: none;
+    display: none;
+  }
+  .iconsFloatRightChange{
+    background: black;
+    opacity: .9;
+  }
+  .section3 .container{
+    background-attachment: scroll;
+  }
+  .section3Head{
+    background-attachment:scroll;
+  }
+  .hero, footer{
+    background-attachment:scroll;
+  }
+
+  .section3 img{
+    width: 20em;
+  }
+  .textBox h3 , .textBoxBlue h3{
+    font-size: 1.5em;
+    top: 10%;
+  }
+  .textBox p, .textBoxBlue p{
+    font-size: 1em;
+  }
+
+  a.tip:hover span {
+   display: none;
  }
- .iconsFloatRightChange{
-  background: black;
-  opacity: .9;
-}
-.section3 .container{
-  background-attachment: scroll;
-}
-.section3Head{
-  background-attachment:scroll;
-}
-.hero, footer{
-  background-attachment:scroll;
-}
-
-.section3 img{
-  width: 20em;
-}
-.textBox h3 , .textBoxBlue h3{
-  font-size: 1.5em;
-  top: 10%;
-}
-.textBox p, .textBoxBlue p{
-  font-size: 1em;
-}
-
-a.tip:hover span {
- display: none;
-}
 }
 @media screen and (max-width: 800px) {
 
-a.tip:hover span {
- display: none;
-}
-.section3 .container{
+  a.tip:hover span {
+   display: none;
+ }
+ .section3 .container{
   background-attachment: scroll;
 }
 .section3Head{

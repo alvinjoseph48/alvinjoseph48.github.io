@@ -2,7 +2,7 @@ body{
 	padding: 0px;
 	margin: 0px;
   overflow-x: hidden;
-   position: relative
+  position: relative
 }
 .wrap2{
   overflow-x: hidden;
@@ -170,11 +170,11 @@ footer img{
     text-align: center;
   }
   .col-lg-4 p{
-  font-size: 1em;
-}
+    font-size: 1em;
+  }
   .row a{
-  color:  #F0F8FF;
-  padding-top: 6em;
+    color:  #F0F8FF;
+    padding-top: 6em;
 
   }
   footer{
@@ -186,9 +186,9 @@ footer img{
   }
 
   .pdf1 , .word1 ,.text{
- margin: .25em;
-  font-size: 70px;
-}
+   margin: .25em;
+   font-size: 70px;
+ }
 
 }
 
