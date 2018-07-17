@@ -642,6 +642,10 @@ hr {
   display: none;
 
 }
+.pad{
+  display: none;
+}
+ 
 @media screen and (max-width: 600px) {
   .hero h1 {
     font-size: 3em;
@@ -686,6 +690,11 @@ hr {
     padding-bottom: .5em;
     padding-right: .5em;
   }
+  .padShow{
+    display: block;
+    background: transparent;
+    padding-top: 12em;
+  }
   .section3{
     margin: 1px;
     padding: 1px;
@@ -710,6 +719,7 @@ hr {
   .disable{
     display: none;
   }
+
   .iconsFloatRightChange{
     background: black;
     opacity: .9;
