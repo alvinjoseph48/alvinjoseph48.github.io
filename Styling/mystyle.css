@@ -568,7 +568,7 @@ footer p img{
   background-color: black;
   text-align: center;
   margin: 0px;
-  padding: 0px;
+  padding: 1em;
 }
 .ClickMe h3{
   color: white;
@@ -580,6 +580,7 @@ footer p img{
   width: 20%;
   height: auto;
   background: transparent;
+  padding: 1em;
 }
 .shake{
   animation-duration: 5s;
