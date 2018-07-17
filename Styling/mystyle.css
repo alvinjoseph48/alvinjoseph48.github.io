@@ -64,8 +64,6 @@ audio{
   margin-top: 0;
   margin-bottom: .25em;
   width: 100%;
-
-
 }
 #alvin{
   padding: 0;
@@ -83,6 +81,7 @@ audio{
   margin-bottom: 2em;
   width: 100%;
   padding: 6em;
+  position: static;
 }
 header * {
   display: inline;
@@ -642,10 +641,7 @@ hr {
   display: none;
 
 }
-.pad{
-  display: none;
-}
- 
+
 @media screen and (max-width: 600px) {
   .hero h1 {
     font-size: 3em;
@@ -690,11 +686,6 @@ hr {
     padding-bottom: .5em;
     padding-right: .5em;
   }
-  .padShow{
-    display: block;
-    background: transparent;
-    padding-top: 12em;
-  }
   .section3{
     margin: 1px;
     padding: 1px;
@@ -718,6 +709,7 @@ hr {
   }
   .disable{
     display: none;
+  
   }
 
   .iconsFloatRightChange{
