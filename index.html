@@ -248,6 +248,13 @@
     document.getElementsByTagName('audio')[0].play();
 });
 </script>
+<script type='text/javascript'>
+    document.getElementById('NFRememberThis').addEventListener('ended',myHandler,false);
+    function myHandler(e) {
+       document.getElementsByTagName('audio')[0].play(); 
+    }
+</script>
+
 <!-- 			<script>
 				$(document).ready(function(){
 					$('[data-toggle="tooltip"]').tooltip(); 
@@ -258,11 +265,11 @@
 				document.getElementById('audioplay').play();
 			</script> -->
 
-			<!-- <iframe src="./images/WhatIveDone.mp3"></iframe>
-			<iframe src="./images/NFRememberThis.mp3" id="NF" ></iframe>-->
+			<!-- <iframe src="./images/WhatIveDone.mp3"></iframe>-->
+			<iframe src="./images/NFRememberThis.mp3" id="NF" id="NFRememberThis"></iframe>
 
 			<audio id="audioplay" controls autoplay="true"  >
-				<source src="./images/WhatIveDone.mp3" type="audio/mpeg">
+				<source src="./images/NFRememberThis.mp3" type="audio/mpeg">
 					Your browser does not support the audio element.
 				</audio> 
 
