@@ -248,17 +248,6 @@
 <script >
 var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
 var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
-if (isChrome) {
-if (isSafari) {
-	document.addEventListener('touchstart', function () {
-    document.getElementsByTagName('audio')[0].pause();
-});
-	document.addEventListener('click', function () {
-    document.getElementsByTagName('audio')[0].pause();
-});
-
-}
-
 if (isSafari) {
 	document.addEventListener('touchstart', function () {
     document.getElementsByTagName('audio')[0].play();
