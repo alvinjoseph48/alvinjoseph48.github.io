@@ -142,6 +142,8 @@ header a img {
 .col1 img{
   border-radius: 50%;
   padding: 1em;
+  width: 400px;
+  height: 400px;
 
 }
 .col2{
@@ -738,6 +740,7 @@ hr {
     font-size: 1em;
   }
 
+
   a.tip:hover span {
    display: none;
  }
@@ -758,4 +761,13 @@ hr {
 }
 
 }
-
+@media screen and (max-width: 370px) {
+  .col1 img{
+    width: 300px;
+    height:300px;
+    margin: 1.5em;
+  }
+  .col1 h3{
+    padding-left: 1.7em;
+  }
+}
