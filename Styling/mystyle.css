@@ -745,7 +745,7 @@ hr {
    display: none;
  }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
   a.tip:hover span {
    display: none;
@@ -759,7 +759,9 @@ hr {
 .hero, footer{
   background-attachment:scroll;
 }
-
+.skills3{
+  margin-bottom: 3em;
+}
 }
 @media screen and (max-width: 370px) {
   .col1 img{
