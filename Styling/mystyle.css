@@ -620,12 +620,10 @@ footer p img{
 }
 hr {
   display: block;
-  margin-right: 25em;
   height: 20px;
   width: 50%;
   border: 0;
   border-top: 1px solid #ccc;
-  margin-left: 25em;
   padding: 0;
 }
 .toggle{
