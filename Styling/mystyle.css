@@ -730,37 +730,8 @@ hr {
 .hero, footer{
   background-attachment:scroll;
 }
-.skills1{
-    padding: 1em;
-    grid-column: 1 / 4;
-    grid-row: 3;
 
-  }
-  .skills3{
-    padding: 1em;
-    grid-column: 1 / 4;
-    grid-row: 4;
-    width: 100%
-  }
-  .skills{
-    grid-column: 1 / 4;
-    grid-row: 2;
-    padding: 1em;
-  }
-  .skills3 h5{
-    text-align: left;
-  }
-  .skills3 .skillBox{
-    width: 100%;
-    padding: 1em;
-  }
-  .skillBox{
-    width: 100%;
-    padding: 1em;
-  }
-  .wrapper{
-    height: 100%;
-}
+
 @media screen and (max-width: 370px) {
   .col1 img{
     width: 300px;
