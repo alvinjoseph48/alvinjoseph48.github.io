@@ -18,7 +18,7 @@ html{
 .hero, footer{
   /* Sizing */
   z-index: -1;
-  width: 100%
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -100,7 +100,6 @@ header {
 }
 header li a{
   margin: 20px;
-  align-items: right;
 }
 
 header img {
@@ -123,7 +122,7 @@ header a img {
   margin: 0;
 }
 .col1 h3 {
-  float: left
+  float: left;
   background-color: black;
   color: white;
   font-size: 3em;
@@ -168,14 +167,14 @@ header a img {
 }
 a.tip {
  
-  text-decoration: none
+  text-decoration: none;
   background-color: black;
 }
 a.tip:hover {
   position: relative;
 }
 a.tip span {
-  display: none
+  display: none;
   background-color: blue;
 }
 a.tip:hover span {
@@ -400,13 +399,11 @@ a.tip:hover span {
 footer  h3{
   margin: 0px;
   padding: 30px;
-  float: center;
   color: white;
   font-size: 4em;
   font-weight: bold;
 }
 footer  p{
-  float: center;
   color: white;
   font-size: 2em;
   font-weight: bold;
@@ -625,7 +622,7 @@ hr {
   display: block;
   margin-right: 25em;
   height: 20px;
-  width: 50%
+  width: 50%;
   border: 0;
   border-top: 1px solid #ccc;
   margin-left: 25em;

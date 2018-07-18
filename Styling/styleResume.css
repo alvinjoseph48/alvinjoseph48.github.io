@@ -96,13 +96,11 @@ footer{
 footer  h3{
   margin: 0px;
   padding: 20px;
-  float: center;
   color: #F0F8FF;
   font-size: 2em;
 
 }
 footer  p{
-  float: center;
   color: #F0F8FF;
   font-size: 2em;
   padding: .75em;
@@ -111,7 +109,7 @@ footer  p{
 hr {
   display: block;
   margin-right: 25em;
-  width: 50%
+  width: 50%;
   border: 0;
   margin-left: 25em;
   padding: 0;
