@@ -62,6 +62,7 @@
 				$('.menu').click(function(){
 					$('ul').toggleClass('active');
 					$('.hero h1').toggleClass('disable');
+					$('.hero h2').toggleClass('disable');
 					$('.iconsFloatRight').toggleClass('iconsFloatRightChange');
 				})
 			})
@@ -71,7 +72,7 @@
 			<div class= "hero-inner">
 				<h1 class="animated hinge" id="alvin"> &lt;/Alvin Joseph&gt;</h1>
 				<h1 class="animated zoomInLeft">Alvin Joseph</h1>
-
+			
 				<h2 class="animated zoomInRight" >Student by day, Programmer by night </h2>
 
 			</div>
@@ -80,7 +81,7 @@
 		<div class = "row">
 			<div class="col1">
 				<h3 id="About">About Me</h3>
-				<img src="./images/about-me-pic.jpg" alt="Avatar" style="float:left;width:400px;height:400px;">
+				<img src="./images/about-me-pic.jpg" alt="Avatar">
 			</div>
 			<div class = "col2" >
 				<p>
@@ -267,6 +268,16 @@
 		document.addEventListener('click', function () {
 			document.getElementsByTagName('audio')[0].play();
 		});
+	}
+	if(isSafari){
+			$(document).ready(function(){
+					$(".section3 .container").css("background-attachment", "scroll");
+					$(".section3").css("background-attachment", "scroll");
+					$(".section3Head").css("background-attachment", "scroll");
+					$(".hero").css("background-attachment", "scroll");
+					$("footer").css("background-attachment", "scroll");
+					
+			})
 	} 
 </script>	
 <audio id="audioplay" controls  >
