@@ -25,7 +25,8 @@
     padding: 1em;
     grid-column: 1 / 4;
     grid-row: 4;
-    width: 100%
+    width: 100%;
+    text-align:left;
   }
   .skills{
     grid-column: 1 / 4;
