@@ -689,15 +689,7 @@ hr {
     background: black;
     opacity: .9;
   }
-  .section3 .container{
-    background-attachment: scroll;
-  }
-  .section3Head{
-    background-attachment:scroll;
-  }
-  .hero, footer{
-    background-attachment:scroll;
-  }
+
 
   .section3 img{
     width: 20em;
@@ -719,15 +711,6 @@ hr {
   a.tip:hover span {
    display: none;
  }
- .section3 .container{
-  background-attachment: scroll;
-}
-.section3Head{
-  background-attachment:scroll;
-}
-.hero, footer{
-  background-attachment:scroll;
-}
 }
 
 @media screen and (max-width: 370px) {
