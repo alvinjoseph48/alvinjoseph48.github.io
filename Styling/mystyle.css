@@ -651,7 +651,6 @@ hr {
     padding: 1em;
   }
   
-  }
   .col1 img{
     padding: 2em;
   }
@@ -711,7 +710,6 @@ hr {
     font-size: 1em;
   }
 
-
   a.tip:hover span {
    display: none;
  }
@@ -730,7 +728,7 @@ hr {
 .hero, footer{
   background-attachment:scroll;
 }
-
+}
 
 @media screen and (max-width: 370px) {
   .col1 img{
