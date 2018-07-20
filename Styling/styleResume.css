@@ -68,7 +68,6 @@ button {
   border-width: 2em;
   border-color: black;
   background: transparent;
-
   font-weight: bold;
   cursor: pointer;
 
@@ -187,4 +186,8 @@ footer img{
  }
 
 }
-
+@media screen and (max-width: 350px) {
+ button {
+  width: 85px;
+}
+}
