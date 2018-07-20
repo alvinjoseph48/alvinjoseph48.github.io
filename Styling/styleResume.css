@@ -13,7 +13,7 @@ html{
 	overflow-x: hidden;
 }
 .row{
-  background:#383838;
+   background:#383838;
 	display: flex;
 	padding: 0px;
 	margin: 0px;
@@ -163,8 +163,7 @@ footer img{
   }
   .Resume{
     padding: 0;
-
-    height: 20em;
+    height: 15em;
     text-align: center;
   }
   .col-lg-4 p{
@@ -173,7 +172,6 @@ footer img{
   .row a{
     color:  #F0F8FF;
     padding-top: 6em;
-
   }
   footer{
     padding: 2em;

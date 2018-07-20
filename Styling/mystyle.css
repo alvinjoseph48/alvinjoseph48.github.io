@@ -701,7 +701,6 @@ hr {
  }
 }
 @media screen and (max-width: 900px) {
-
   a.tip:hover span {
    display: none;
  }
