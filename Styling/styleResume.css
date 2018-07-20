@@ -13,7 +13,7 @@ html{
 	overflow-x: hidden;
 }
 .row{
-	background-color: #708090;
+  background:#383838;
 	display: flex;
 	padding: 0px;
 	margin: 0px;
@@ -31,7 +31,7 @@ html{
 }
 .row h1{
 	font-size: 6em;
-	color: 	#bfbff2;
+	color: rgba(255,162,47,.85);
 }
 .row h4{
 	font-weight: lighter;
@@ -50,7 +50,7 @@ html{
 
 	margin: 0px;
 	padding-right: 0px;
-	background: linear-gradient(to right ,#00FFFF  ,#FF00FF, #000080);
+  background: linear-gradient(rgba(240,61,77,.85),rgba(255,162,47,.85));
 	height: 20em;
   width: 100%;
   text-align: center;
@@ -82,13 +82,13 @@ button {
   font-size: 70px;
 }
 .word1:hover , .pdf1:hover, .text:hover {
-  background: #00FFFF;
+  background: #383838;
   color: white;
   border-color: white;
 }
 footer{
 	text-align: center;
-	background-color: #708090;
+  background: #383838;
 	display: flex;
 	padding: 0px;
 	margin: 0px;
