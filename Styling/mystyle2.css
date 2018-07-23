@@ -48,8 +48,9 @@ audio{
     .section3 img{
         width:20em;
     }
+
     img.imgIcon {
-    width: 2em;
+    width: 4em;
     }
     .active,.toggle,ul li{
         display:block

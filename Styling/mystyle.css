@@ -622,9 +622,6 @@ hr{
     .section3 img{
         width:20em;
     }
-      img.imgIcon {
-    width: 2em;
-    }
     .textBox h3,.textBoxBlue h3{
         font-size:1.5em;
         top:10%
