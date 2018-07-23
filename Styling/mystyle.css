@@ -622,8 +622,8 @@ hr{
     .section3 img{
         width:20em
     }
-    .section3 .imgIcon{
-        width: 4em;
+      img.imgIcon {
+    width: 2em;
     }
     .textBox h3,.textBoxBlue h3{
         font-size:1.5em;
