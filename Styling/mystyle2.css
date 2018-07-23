@@ -46,10 +46,10 @@ audio{
         margin:0
     }
     .section3 img{
-        width:20em
+        width:20em;
     }
-    .section3 .imgIcon{
-        width: 4em;
+    img.imgIcon {
+    width: 2em;
     }
     .active,.toggle,ul li{
         display:block
