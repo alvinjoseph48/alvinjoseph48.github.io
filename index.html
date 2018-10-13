@@ -108,13 +108,13 @@
 				<div class="skillBox">
 					<p>Html</p>
 					<div class="skill">
-						<div class="skill_level" style="width: 60%;"></div>
+						<div class="skill_level" style="width: 85%;"></div>
 					</div>
 				</div>
 				<div class="skillBox">
 					<p>CSS</p>
 					<div class="skill">
-						<div class="skill_level" style="width: 55%;" ></div>
+						<div class="skill_level" style="width: 65%;" ></div>
 					</div>
 				</div>
 				<div class="skillBox">
@@ -126,7 +126,7 @@
 				<div class="skillBox">
 					<p>BootStrap</p>
 					<div class="skill">
-						<div class="skill_level" style="width: 50%"></div>
+						<div class="skill_level" style="width: 60%"></div>
 					</div>
 				</div>
 			</div>
@@ -141,7 +141,7 @@
 				<div class="skillBox">
 					<p>Python</p>
 					<div class="skill">
-						<div class="skill_level" style="width: 30%"></div>
+						<div class="skill_level" style="width: 40%"></div>
 					</div>
 				</div>
 				<div class="skillBox">
@@ -151,12 +151,13 @@
 					</div>
 				</div>
 				<div class="skillBox">
-					<p>Mips</p>
+					<p>C</p>
 					<div class="skill">
-						<div class="skill_level" style="width: 80%;" ></div>
+						<div class="skill_level" style="width: 60%;" ></div>
 					</div>
 				</div>
 			</div>
+			<!--
 			<div class="skills3"> 
 
 				<h5>Life In General</h5>
@@ -184,8 +185,8 @@
 						<div class="skill_level" style="width: 100%"></div>
 					</div>
 				</div>
-
 			</div>
+		-->
 		</div>
 		<div class="section3Head" id="Projects">
 			<h3>Featured Projects</h3>
@@ -270,8 +271,14 @@
     document.getElementsByTagName('audio')[0].play();
 });
 </script>-->
-<iframe src="./images/NFRememberThis.mp3" id="NF" ></iframe>
+<!--<iframe src="./images/NFRememberThis.mp3" id="NF" ></iframe> -->
+
 <!-- <iframe src="./images/WhatIveDone.mp3"></iframe>-->
+<!--
+<audio id="audioplay" controls  >
+	<source src="./images/NFRememberThis.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+</audio> 
 <script >
 	var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
 	var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
@@ -283,6 +290,9 @@
 			document.getElementsByTagName('audio')[0].play();
 		});
 	}
+USE THIS TO PLAY AUDIO
+-->
+<script>
 	if(isSafari){
 			$(document).ready(function(){
 					$(".section3 .container").css("background-attachment", "scroll");
@@ -294,10 +304,7 @@
 			})
 	} 
 </script>	
-<audio id="audioplay" controls  >
-	<source src="./images/NFRememberThis.mp3" type="audio/mpeg">
-		Your browser does not support the audio element.
-	</audio> 
+
 
 </body>
 </div>

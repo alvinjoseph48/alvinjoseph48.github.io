@@ -242,7 +242,7 @@ a.tip:hover span{
     grid-row:2
 }
 .wrapper{
-    height:90em;
+    height:50em;
     display:grid;
     grid-auto-rows:minmax(50px,auto);
     grid-template-columns:repeat(2,2fr);
