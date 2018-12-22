@@ -1,0 +1,65 @@
+﻿Alvin Joseph
+
+Summary
+Self-motivated, hard-working computer science student, seeking new challenges in coding. Dedicated to providing a highly analytical, creative mindset, as well as a professional demeanor for any opportunity presented to me.
+
+Computer Experience
+* Java
+* C
+* Python 
+* MySQL/SQL        
+* HTML 
+* JavaScript 
+* CSS 
+* Git
+* Assembly (MIPS & x86 )
+* Windows OS
+* Mac OS
+* Linux
+
+Education
+Stony Brook University | Expected Fall 2019
+Bachelor of Science | Computer Science | Cumulative GPA: 3.1
+Suffolk County Community College | Fall 2017 
+Associates of Science | Computer Science | Major GPA: 4.0 | Cumulative GPA: 3.7
+Related coursework: System Fundamentals II, Analysis of Algorithms, Data Structures and Algorithms, Computer Science III, Computer Networks, Systems Fundamentals I, Advanced Object-Oriented Programming, Object Oriented Programming
+Experience
+Software Developer  | Suffolk County District Attorney | Hauppauge, New York | June 2018 – Present
+* Produced in house application from scratch to expedite the process of searching and taking down criminals
+* Created a new database and then Integrated with in house server 
+* Worked closely with a National Guard Analyst to get feedback to improve applications and to add more useful features
+
+
+Commercial Operations Analyst Intern | Sartorius Stedim | Bohemia | September 2017 – January 2018
+* Analyzed sales to create new reports and dashboards for sales representatives across North America.
+* Maintained existing reports and dashboards
+* Produced any requested or required data elements 
+
+
+Projects | https://github.com/alvinjoseph48
+Criminal Database  | In House Application for District Attorney 
+* Allows users to insert, search, delete, update, import and export: criminals, weapons and vehicles
+* Used Suffolk County’s police departments gang, vehicle and weapons data to draw connections
+* Vehicles and weapons can be linked with specific criminals
+* Notifies user when importing/inserting criminal of suspicious connections and different notifications that National Guard analyst thought would be helpful
+
+
+Dynamic Memory Allocator
+* Implemented functions which include malloc, free and realloc.
+* Used a doubly circular linked list to keep track of the free chunks of data and used a last in first out (LIFO) policy. 
+* Immediate coalescing was implemented to keep memory management efficient. 
+
+
+Habitat For Humanity Restore 
+* Model-view-controller (MVC) design pattern
+* A store for habitat for humanity products where employees can insert items with different parameters with an image. 
+* Items are maintained using a MySQL Database
+* Customers can search and checkout items in their cart with credit card information
+
+
+Parking garage 
+* Software that allows parking of different vehicles for a specified number of hours
+* Uses the most efficient data structure that allows for the different operations 
+* Operation like searching the best spot for the vehicle uses the data structure of a stack
+* Allows to remove vehicles in parking garage based on ticket number or license plate
+Page
